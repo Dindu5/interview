@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* ========================
+STYLESHEET FOR INTERVIEW SESSION
+============================ */
+
+/* ============== GENERAL BODY STYLES ================= */
+/* ==================================================== */
+:root {
+    --main-font : 'Lato', sans-serif;
+    --text-black : #000000;
+    --text-white : #ffffff;
+    --main-background : #F2F8FA;
+    --button-fill : #2D93AD;
+    --link-color : #2699FB;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+body {
+    background-color: var(--main-background);
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+/* ==================================================== */
+/* ================== ELEMENTS STYLES ================= */
+/* ==================================================== */
+
+.main_heading {
+    margin: 3rem 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.log_form {
+    margin: 4rem auto;
+    max-width: 400px;
+}
+.form-control {
+    padding: 1.5rem 1rem;
+    background-color: var(--text-white) !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 6px #00000029 !important;
+    border: none !important;
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    box-shadow: 0px 0px 10px #14597929 !important;
+}
+label {
+    font-weight: 600;
+}
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 4;
+    margin-right: 1rem;
+}
+.log_button {
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px !important;
+    margin: 1.6rem 0;
+    color: var(--text-white);
+    background-color: var(--button-fill);
+}
+
+.log_button:hover,
+.log_button:active,
+.log_button:focus {
+    background-color: var(--facebook-blue);
+    color: var(--text-white);
+    box-shadow: 0px 0px 15px #00000029;
+}
+.log_form a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.log_form a:hover {
+    color: var(--facebook-blue);
+    text-decoration: none;
+}
+.forgot_p, .help_text {
+    font-size: 0.9rem;
+    color: #4E4343;
+}
+.bottom_footer {
+    padding: 0.9rem 10vw;
+    background-color:#252525 ;
+}
+.bottom_footer p {
+    margin-bottom: 0;
+    color: rgb(221, 216, 216);
+    font-size: 0.85rem;
+}
+.bottom_footer a {
+    color: rgb(221, 216, 216);
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+@media screen and (max-width: 768px) {
+    .main_heading {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    
+}
+@media screen and (max-width: 428px) {
+    .log_form {
+        margin: 4rem 1.5rem;
+        max-width: 400px;
+    }
+    
+}
