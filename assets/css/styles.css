@@ -111,6 +111,12 @@ label {
         font-size: 1.6rem;
         font-weight: 600;
     }
+    .bottom_footer {
+    padding: 0.9rem 5vw;
+    background-color:#252525 ;
+    flex-direction: column;
+}
+
     
 }
 @media screen and (max-width: 428px) {
